@@ -5,8 +5,26 @@
   <title>*** SAM: SOFTWARE AUTOMATIC MOUTH ***</title>
   <script src="dist/samjs.js"></script>
   <script src="heads.js"></script>
+  <!-- favicon section appletouch favicon etc -->
+  <link rel="icon" type="image/png" href="favicon-32x32.png">
+  <!-- 16x16 favicon -->
+  <link rel="shortcut icon" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAM: Software Automatic Mouth - A text-to-speech program in JavaScript">
+  <meta name="keywords" content="SAM, Software Automatic Mouth, text-to-speech">
+  <meta name="author" content="GoHubbo">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="copyright" content="Copyright © 2023 GoHubbo">
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- JAVASCRIPT FOR SPINNING FAVICON -->
+  <script src="spinning-favicon.js"></script>
   <style>
     body {
       background-color: #000080;
@@ -131,6 +149,14 @@
       border: 1px solid #fff;
       margin-top: 10px;
     }
+    .img {
+      /* logo img */
+      /* make the image black */
+      filter: brightness(2) invert(1);
+    }
+    .net {
+
+    }
   </style>
 </head>
 
@@ -138,13 +164,14 @@
 
   <div id="main-container">
     <div id="sidebar">
-      <div style="color: #fff; margin-bottom: 10px;">SAM v1.0</div>
+      <div style="color: #fff; margin-bottom: 10px;"><img src="ljkh.png" class="img" height="130px" alt="samLogo"></div>
       <a href="#">HOME</a>
       <a href="#" id="voices">VOICES</a>
       <a href="#">GUESTBOOK</a>
       <br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Netscape_icon.svg" width="40" alt="Netscape">
-      <div class="hit-counter">Hits: 004321</div>
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyN3Iya3VvbnRyOW90Y3pnOXZra2wza2djYXIxMmFzNHowZTZiMHZoeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/anjRJ4nv9WJzO/giphy.gif" style="border-radius: 20px;" width="100" alt="Netscape">
+      <a href="https://www.freecounterstat.com" title="web page counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=5wdxgzjl4yt82da3lugbusmqxxte2smb" border="0" title="web page counter" alt="web page counter"></a>
+
     </div>
 
     <div id="content">

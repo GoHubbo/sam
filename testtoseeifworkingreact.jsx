@@ -10,6 +10,7 @@ test('renders the counter with the correct initial count', () => {
   expect(countLabel).toHaveTextContent('You clicked 0 times');
 });
 
+
 test('increments the count when the button is clicked', () => {
   render(<Counter />);
   const button = screen.getByText(/click me/i);
